@@ -1,0 +1,116 @@
+ 
+
+body{
+  background: #fefefe;
+}
+
+ h1{
+  font-size: 36px;
+  line-height: 100px;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+}
+
+.box{
+  width: 800px;
+  height: 600px;
+  background: #fefefe;
+  margin: 20px auto;
+  border-top: 1px solid #fefefe;
+}
+
+.box div{
+  width: 500px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  margin: 30px auto;
+  line-height: 49px;
+}
+.box div:hover{
+  border-color: #333333 !important;
+}
+
+.box .a1{
+  margin-top: 100px;
+  
+}
+.box div .sp1{
+  float: left;
+  width: 120px;
+  text-align: center;
+  border-right: solid 1px #cccccc;
+}
+.box div .sp1:hover{
+  border-color: #666666;
+}
+.box div input{
+  float: left;
+  width: 300px;
+  height: 36px;
+  margin-top: 7px;
+  padding-left: 10px;
+  margin-left: 5px;
+  border: none;
+  font-size: 18px;
+}
+
+.box>a{
+  display: block;
+  width: 500px;
+  height: 50px;
+  background: #e1251b;
+  color: #ffffff;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 50px;
+}
+.box p{
+  margin: 0 auto;
+  height: 50px;
+  width: 500px;
+  line-height: 50px;
+  font-size: 14px;
+}
+.box p span a{
+  color: #333333;
+}
+.box p .sp1 a:hover{
+  color: #e1251b;
+}
+.box p .sp2 a:hover{
+  color: #e1251b;
+}
+.box p .sp1{
+  float: left;
+}
+.box p .sp2{
+  float: right;
+}
+.box p .sp1 a{
+
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------- */
+.f1{
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.f2{
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  color: #888888;
+  margin-bottom: 50px;
+  font-size: 14px;
+}

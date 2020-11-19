@@ -1,0 +1,267 @@
+/* 侧边栏返回顶部 */
+.cc{
+  display: none;
+  position: fixed;
+  top: 300px;
+  right: 30px;
+  width: 75px;
+  /* height: 355px; */
+  background: #eeeeee;
+  border: 2px solid #333333;
+  z-index: 99;
+}
+.cc li{
+  width: 71px;
+  height: 71px;
+  line-height: 75px;
+  text-align: center;
+}
+.cc li a{
+  display: block;
+  width: 71px;
+  height: 71px;
+  color: #333333;
+}
+
+.cc li a:hover{
+  background: #e1251b;
+  color: #eeeeee;
+}
+
+
+.main{
+  /* height: 900px; */
+  background: #ffffff;
+  margin-bottom: 20px;
+}
+.main h2{
+  line-height: 60px;
+  font-size: 30px;
+  text-align: center;
+  color: #e1251b;
+  border-bottom: 1px solid #cccccc;
+}
+.main .box{
+  padding: 36px 50px;
+  
+}
+
+.main .box>ul li{
+  position: relative;
+  background: #f3f2f2;
+  /* overflow: hidden; */
+  height: 150px;
+  margin-bottom: 15px;
+  border: 2px solid #cccccc;
+}
+.main .box>ul li img{
+  float: left;
+  width: 146px;
+  height: 146px;
+}
+.main .box>ul li h3{
+  float: left;
+  width: 450px;
+  height: 50px;
+  line-height: 1.5;
+  margin: 15px 100px 0 15px;
+}
+.main .box>ul li span{
+  float: right;
+  height: 34px;
+  padding: 0 10px;
+  margin-top: 40px;
+  line-height: 30px;
+  border: 2px solid #333333;
+  border-radius: 5px;
+}
+.main .box>ul li span i{
+  color: #e1251b;
+}
+.main .box>ul li .sp1{
+  margin-right: 40px;
+}
+.main .box>ul li .sp2{
+  margin-right: 20px;
+  width: 150px;
+}
+.main .box>ul li .sp2 button{
+  float: right;
+  width: 24px;
+  height: 24px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 3px;
+}
+.main .box>ul li .sp3{
+  float: left;
+  width: 80px;
+  margin-top: 30px;
+  margin-left: 830px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 17px;
+}
+.main .box>ul li .sp3:hover{
+  color: #e1251b;
+  border-color: #e1251b;
+}
+.main .box>ul li>input{
+  position: absolute;
+  top: 63px;
+  left: -40px;
+  width: 30px;
+  height: 150px;
+  background: #008c8c;
+}
+.main .box>ul li>input{
+  width: 24px;
+  height: 24px;
+  border: 2px solid red;
+}
+.main>.box>ul>span{
+  color: #888888;
+}
+.main .box>ul li .sp4{
+  position: absolute;
+  top: 64px;
+  left: 772px;
+  height: 34px;
+  width: 100px;
+  cursor: pointer;
+  color: #333333;
+  text-align: center;
+  border-color: #008c8c;
+}
+
+.main .box>ul li .sp4:hover{
+  background: #008c8c;
+  color:  #f3f2f2;
+}
+
+
+.main .box .box1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .3);
+  z-index: 98;
+}
+
+
+
+.main .box .jiage{
+  position: fixed;
+  top: 200px;
+  left: 500px;
+  width: 500px;
+  height: 200px;
+  background: #f3f4f5;
+  z-index: 99;
+  border: 2px solid #008c8c;
+  border-radius: 10px;
+}
+.main .box .jiage span{
+  position: absolute;
+  top: 36px;
+  left: 30px;
+}
+.main .box .jiage span i{
+  color: #e1251b;
+}
+.main .box .jiage .icon{
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  height: 64px;
+}
+.main .box .jiage .icon img{
+  float: left;
+  margin-right: 20px;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
+.main .box .jiage .dele{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+.main .cz{
+  height: 80px;
+  /* background: #f3f2f2; */
+  
+}
+.main .cz .sp1{
+  float: right;
+  padding: 5px 10px;
+  height: 32px;
+  background: #008c8c;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 66px;
+  margin-top: 8px;
+  margin-right: 50px;
+}
+.main .cz .sp2{
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.main .cz .sp2:hover{
+  color: blue;
+}
+
+.main .cz .sp3{
+  float: left;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.main .cz .sp3:hover{
+  color: blue;
+}
+
+.main .cz input{
+  float: left;
+  margin-left: 50px;
+  width: 24px;
+  height: 24px;
+  margin-top: 13px;
+}
+
+.main .cz .sp4{
+  float: left;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+
+.main .cz .sp5{
+  float: left;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.main .cz .sp4:hover{
+  color: #e1251b;
+}
+
+.main .cz .sp5:hover{
+  color: #008c8c;
+}

@@ -1,0 +1,123 @@
+
+/* 侧边栏返回顶部 */
+.cc{
+  display: none;
+  position: fixed;
+  top: 300px;
+  right: 30px;
+  width: 75px;
+  /* height: 355px; */
+  background: #eeeeee;
+  border: 2px solid #333333;
+  z-index: 99;
+}
+.cc li{
+  width: 71px;
+  height: 71px;
+  line-height: 75px;
+  text-align: center;
+}
+.cc li a{
+  display: block;
+  width: 71px;
+  height: 71px;
+  color: #333333;
+}
+
+.cc li a:hover{
+  background: #e1251b;
+  color: #eeeeee;
+}
+
+
+
+
+
+/* 商品列表开始 */
+.list{
+  /* height: 500px; */
+  background: #e3e4e5;
+  margin-bottom: 20px;
+}
+.list h2{
+  line-height: 60px;
+  font-size: 30px;text-align: center;
+  margin-bottom: 15px;
+  border-bottom: #cccccc 1px solid;
+}
+.list{
+  /* height: 200px; */
+  margin-bottom: 20px;
+  background: #ffffff;
+}
+.list h2{
+  margin-bottom: 26px;
+  line-height: 60px;
+  font-size: 26px;
+  text-align: center;
+}
+.list h2>i{
+  color: #e1251b;
+}
+.list>.box>ul{
+  overflow: hidden;
+}
+.list>.box li{
+  float: left;
+  padding: 0 18px;
+  margin: 20px;
+  width: 200px;
+  height: 250px;
+  background: #e3e4e5;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+.list>.box li:hover{
+  border-color: #333333;
+}
+.list>.box li img{
+  float: left;
+  margin: 20px 0;
+  width: 160px;
+  height: 160px;
+  cursor: pointer;
+  transition: all .3s;
+}
+.list>.box li img:hover{
+  transform: scale(1.1,1.1);
+}
+.list>.box li a{
+  /* overflow: hidden; */
+  float: left;
+}
+.list>.box li>p{
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+.list>.box li>p:hover{
+  color: #e1251b;
+}
+.list>.box li>span{
+  float: left;
+  margin-top: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.list>.box li>span:hover{
+  color: #e1251b;
+}
+.list>.box li>i{
+  float: left;
+  font-size: 14px;
+  /* margin-top: 3px; */
+  margin-left: 28px;
+  cursor: pointer;
+  background: #008c8c;
+  color: #ffffff;
+  padding: 2px 5px;
+}
+.list>.box li>i:hover{
+  background: #026d6d;
+}

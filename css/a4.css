@@ -1,0 +1,179 @@
+
+
+
+
+h1{
+  font-size: 36px;
+  line-height: 100px;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+}
+
+.box{
+  position: relative;
+  margin-top: 20px;
+  height: 500px;
+  /* background: #008c8c; */
+  background: url(../img/wallhaven-4o75p5.jpg);
+}
+
+.box .b1{
+  position: absolute;
+  top: 50px;
+  right: 220px;
+  width: 320px;
+  height: 400px;
+  background: #ffffff;
+}
+.box .b1 .x1{
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #cccccc;
+}
+.box .b1 .x1 span{
+  float: left;
+  width: 160px;
+  text-align: center;
+  cursor: pointer;
+}
+.box .b1 .x1 span:hover{
+  color: #e1251b;
+  font-weight: 700;
+}
+.box .b1 .x1 .sele{
+  font-weight: 700;
+  color: #e1251b;
+}
+
+
+
+
+.box .b1 .x2{
+  /* background: #008c8c; */
+  height: 300px;
+}
+.box .b1 .x2 img{
+  float: left;
+  margin-left: 60px;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+.box .b1 .x3{
+  /* background: lightcoral; */
+  height: 300px;
+}
+
+.box .b1 .x3 div{
+  float: left;
+  margin-left: 20px;
+  height: 42px;
+  width: 280px;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  line-height: 38px;
+  padding-left: 10px;
+  color: #333333;
+  border-color: #cccccc;
+}
+.box .b1 .x3 div input{
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+}
+.box .b1 .x3 .a1{
+  margin-top: 46px;
+}
+.box .b1 .x3 .a2{
+  margin-top: 24px;
+}
+.box .b1 .x3 span{
+  float: right;
+  margin-top: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.box .b1 .x3 span:hover{
+  color: #e1251b;
+}
+
+.box .b1 .x3 .a3{
+  position: absolute;
+  top: 270px;
+  left: 100px;
+  width: 120px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  background:  #e1251b;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 42px;
+}
+
+
+
+
+
+.box .b1 .xia{
+  height: 50px;
+  /* background: lightgoldenrodyellow; */
+  border-top: #cccccc 1px solid;
+}
+.box .b1 .xia a{
+  float: left;
+  width: 60px;
+  color: #333333;
+  font-size: 14px;
+  text-align: right;
+  line-height: 50px;
+  padding: 0 5px;
+  margin-left: 10px;
+}
+.box .b1 .xia .a1{
+  background: url(../img/qq.png) no-repeat 7px center;
+  background-size: 20px;
+}
+.box .b1 .xia .a2{
+  background: url(../img/weixin.png) no-repeat 3px center;
+  background-size: 20px;
+}
+.box .b1 .xia .a3{
+  float: right;
+  width: 90px;
+  background: url(../img/youjiantou.png) no-repeat left center;
+  background-size: 30px;
+  margin-right: 10px;
+  color: #e1251b;
+}
+.box .b1 .xia .a3:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+.sp1{
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.sp2{
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  color: #888888;
+  font-size: 14px;
+}
+
+

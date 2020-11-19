@@ -1,0 +1,321 @@
+/* header 下面的第一个内容模块 */
+
+.main{
+  /* background: #008c8c; */
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.main .left{
+  float: left;
+  width: 190px;
+  height: 400px;
+  /* background: lightcoral; */
+  margin-right: 15px;
+  padding: 15px 10px;
+}
+
+.main .left li{
+  float: left;
+  padding-left: 8px;
+  line-height: 30px;
+  font-size: 14px;
+  width: 100%;
+  color: #333333;
+}
+.main .left li:hover{
+  background: #cccccc;
+}
+.main .left li>div{
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  width: 675px;
+  height: 400px;
+  background: #eeeeee;
+  z-index: 18;
+}
+.main .left li>div>h3{
+  text-align: center;
+  line-height: 35px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 15px;
+}
+.main .left li>div>.box{
+  float: left;
+}
+.main .left li>div>.box>.p1{
+  float: left;
+  margin-left: 10px;
+  margin-right: 15px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: right;
+}
+.main .left li>div>.box>.p2{
+  float: left;
+  color: #888888;
+}
+.main .left li>div>.box>.p2>a{
+  margin: 0 5px;
+}
+
+
+
+.main .left .a1:hover>div{
+  display: block;
+}
+.main .left .a2:hover>div{
+  display: block;
+}
+.main .left .a3:hover>div{
+  display: block;
+}
+.main .left .a4:hover>div{
+  display: block;
+}
+.main .left .a5:hover>div{
+  display: block;
+}
+.main .left .a6:hover>div{
+  display: block;
+}
+.main .left .a7:hover>div{
+  display: block;
+}
+.main .left .a8:hover>div{
+  display: block;
+}
+.main .left .a9:hover>div{
+  display: block;
+}
+.main .left .a10:hover>div{
+  display: block;
+}
+.main .left .a11:hover>div{
+  display: block;
+}
+.main .left .a12:hover>div{
+  display: block;
+}
+
+
+
+/* 轮播图插件的样式 */
+.main>.swiper-container{
+  float: left;
+  height: 400px;
+  width: 650px;
+}
+
+.main>.swiper-container .swiper-slide img{
+  width: 650px;
+  height: 400px;
+}
+
+
+/* main--right右边盒子的设置 */
+.main .right{
+  float: right;
+  height: 400px;
+  width: 330px;
+  background: #e3e4e5;
+}
+
+.main .right .r1{
+  width: 330px;
+  height: 180px;
+  background:#e3e4e5;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.main .right .r1>div{
+  float: left;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  width: 100px;
+  margin-right: 5px;
+  border: 2px solid #333333;
+  border-radius: 5px;
+}
+.main .right .r1>.a3{
+  margin-right: 0;
+}
+.main .right .r1>div>img{
+  display: block;
+}
+.main .right .r2{
+  width: 330px;
+  height: 220px;
+}
+
+.main .right .r2>.a1{
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 96px;
+  height: 94px;
+  /* background: #008c8c; */
+  border: 2px solid #333333;
+  border-radius: 5px;
+}
+.main .right .r2>.a1>img{
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-left: 18px;
+}
+.main .right .r2>.a1>a{
+  display: block;
+  color: #333333;
+  text-align: center;
+  font-size: 14px;
+}
+.main .right .r2>.a1>a:hover{
+  color:  #e1251b;
+}
+
+
+ 
+
+/* 侧边栏返回顶部 */
+.cc{
+  display: none;
+  position: fixed;
+  top: 300px;
+  right: 30px;
+  width: 75px;
+  /* height: 355px; */
+  background: #eeeeee;
+  border: 2px solid #333333;
+  z-index: 99;
+}
+.cc li{
+  width: 71px;
+  height: 71px;
+  line-height: 75px;
+  text-align: center;
+}
+.cc li a{
+  display: block;
+  width: 71px;
+  height: 71px;
+  color: #333333;
+}
+
+.cc li a:hover{
+  background: #e1251b;
+  color: #eeeeee;
+}
+
+
+
+/* 无缝滚动项目实现+倒计时 */
+.x1{
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.x1 .l1{
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: #d20013;
+}
+.x1 .l1 h3{
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 100px;
+  text-align: center;
+}
+.x1 .l1 p{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color:  #e3e4e5;
+}
+.x1 .l1>i{
+  display: block;
+  text-align: center;
+  line-height: 35px;
+  font-size: 15px;
+  color: #e3e4e5;
+}
+
+.x1 .l2{
+  float: right;
+  width: 985px;
+  height: 200px;
+  background: #e3e4e5;
+  overflow: hidden;
+}
+.x1 .l2>.a{
+  width: 6000px;
+  cursor: pointer;
+}
+.x1 .l2>.a>img{
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+/* x2模块开始啦 */
+
+.x2{
+  /* height: 200px; */
+  margin-bottom: 20px;
+  background: #ffffff;
+}
+.x2 h2{
+  margin-bottom: 26px;
+  line-height: 60px;
+  font-size: 26px;
+  text-align: center;
+}
+.x2 h2>i{
+  color: #e1251b;
+}
+.x2>.box>ul{
+  overflow: hidden;
+}
+.x2>.box li{
+  float: left;
+  padding: 0 20px;
+  margin: 20px;
+  width: 200px;
+  height: 250px;
+  background: #e3e4e5;
+}
+.x2>.box li>img{
+  float: left;
+  margin: 20px 0;
+  width: 160px;
+  height: 160px;
+  cursor: pointer;
+}
+.x2>.box li>p{
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+.x2>.box li>p:hover{
+  color: #e1251b;
+}
+.x2>.box li>span{
+  float: left;
+  margin-top: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.x2>.box li>span:hover{
+  color: #e1251b;
+}
