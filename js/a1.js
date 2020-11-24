@@ -309,12 +309,12 @@ function b2() {
         obj = {
           // imgD: imgD.src,
           img1: x.src,
-          img2: 'http://127.0.0.1:5500/img/goods2.png',
-          img3: 'http://127.0.0.1:5500/img/goods3.png',
-          img4: 'http://127.0.0.1:5500/img/goods4.png',
-          img5: 'http://127.0.0.1:5500/img/goods5.png',
-          img6: 'http://127.0.0.1:5500/img/goods6.png',
-          img7: 'http://127.0.0.1:5500/img/goods7.png'
+          img2: '../img/goods2.png',
+          img3: '../img/goods3.png',
+          img4: '../img/goods4.png',
+          img5: '../img/goods5.png',
+          img6: '../img/goods6.png',
+          img7: '../img/goods7.png'
         }
       }
 
@@ -322,12 +322,12 @@ function b2() {
         obj = {
           // imgD: imgD.src,
           img1: x.src,
-          img2: 'http://127.0.0.1:5500/img/XXwebp (2).png',
-          img3: 'http://127.0.0.1:5500/img/XXwebp (3).png',
-          img4: 'http://127.0.0.1:5500/img/XXwebp (4).png',
-          img5: 'http://127.0.0.1:5500/img/XXwebp (5).png',
-          img6: 'http://127.0.0.1:5500/img/XXwebp (6).png',
-          img7: 'http://127.0.0.1:5500/img/XXwebp (7).png'
+          img2: '../img/XXwebp(2).png',
+          img3: '../img/XXwebp(3).png',
+          img4: '../img/XXwebp(4).png',
+          img5: '../img/XXwebp(5).png',
+          img6: '../img/XXwebp(6).png',
+          img7: '../img/XXwebp(7).png'
         }
       } 
 
@@ -335,12 +335,12 @@ function b2() {
         obj = {
           // imgD: imgD.src,
           img1: x.src,
-          img2: 'http://127.0.0.1:5500/img/XXwebp (10).png',
-          img3: 'http://127.0.0.1:5500/img/XXwebp (11).png',
-          img4: 'http://127.0.0.1:5500/img/XXwebp (12).png',
-          img5: 'http://127.0.0.1:5500/img/XXwebp (13).png',
-          img6: 'http://127.0.0.1:5500/img/XXwebp (14).png',
-          img7: 'http://127.0.0.1:5500/img/XXwebp (15).png'
+          img2: '../img/XXwebp(10).png',
+          img3: '../img/XXwebp(11).png',
+          img4: '../img/XXwebp(12).png',
+          img5: '../img/XXwebp(13).png',
+          img6: '../img/XXwebp(14).png',
+          img7: '../img/XXwebp(15).png'
         }
 
         console.log(x.code);
